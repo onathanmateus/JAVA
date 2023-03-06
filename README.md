@@ -1,2 +1,2 @@
 # JAVA
-My personal JAVA exercises and challenges
+here you will find all the study material and my experience with JAVA.
