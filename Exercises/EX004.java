@@ -16,7 +16,6 @@ public class EX004 {
     } else{
       System.out.print("Reprovado !!");
     }
-    
     teclado.close();
   }
 }

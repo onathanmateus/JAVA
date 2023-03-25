@@ -23,7 +23,6 @@ public class EX005 {
         tipo = "et";
     }
     System.out.println(tipo);
-
     tec.close();
   }
 }
