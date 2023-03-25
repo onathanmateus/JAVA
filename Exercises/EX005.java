@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class EX005 {
   public static void main(String[] args){
     Scanner tec = new Scanner(System.in);
-    
+
     System.out.println("Informe quantas pernas tem o animal: ");
     int pernas = tec.nextInt();
     String tipo;
@@ -23,6 +23,7 @@ public class EX005 {
         tipo = "et";
     }
     System.out.println(tipo);
+
+    tec.close();
   }
 }
-
