@@ -8,6 +8,7 @@ public class EX005 {
     int pernas = tec.nextInt();
     String tipo;
     System.out.println("O animal escolhido pelo usuário foi um: ");
+    
     switch (pernas){
       case 1: 
         tipo = "saci";

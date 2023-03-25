@@ -1,5 +1,3 @@
-import javax.sound.sampled.SourceDataLine;
-import javax.swing.event.SwingPropertyChangeSupport;
 
 public class EX003{
   public static void main(String[] args) {
