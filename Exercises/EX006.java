@@ -9,7 +9,7 @@ public class EX006{
     System.out.print("Digite a coordenada y do primeiro ponto: ");
     int y1 = entrada.nextInt();
     // Lê as coordenadas do segundo ponto
-    System.out.print("Digite a coordenada x do segundo ponto: ");
+    System.out.print("Digite a coordenada x do segundo ponto: ");          
     int x2 = entrada.nextInt();
     System.out.print("Digite a coordenada y do segundo ponto: ");
     int y2 = entrada.nextInt();
