@@ -5,14 +5,14 @@ public class EX010 {
     Scanner entrada = new Scanner(System.in);
     //Declarando variáveis e recebendo os valores 
     System.out.print("Digite o custo de fábrica do veículo novo: ");
-    float cf = entrada.nextFloat();
+    float custoFabrica = entrada.nextFloat();
     //Calculando os juros
-    float jd = ((0.28f)*cf);
-    float i = ((0.45f)*cf);
+    float jurosDistribuidor = ((0.28f)*custoFabrica);
+    float impostos = ((0.45f)*custoFabrica);
     //Calculando o custo final do veículo para o consumidor
-    float cc = (cf+jd+i);
+    float custoConsumidor = (custoFabrica+jurosDistribuidor+impostos);
     //Mostrando o resultado na tela
-    System.out.println("O custo do veículo para o consumidor final é de: "+cc);
+    System.out.println("O custo do veículo para o consumidor final é de: "+custoConsumidor);
 
     entrada.close();
   }
