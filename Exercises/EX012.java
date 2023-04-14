@@ -14,7 +14,7 @@ public class EX012 {
     if(media>=6){
       System.out.println("Parabéns !!! Você passou de ano !!!");
     }else{
-      System.out.println("Sinto muito mas você foi reprovado....");
+      System.out.println("Sinto muito, mas você foi reprovado....");
     }
 
     entrada.close();
