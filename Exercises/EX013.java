@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class EX013 {
   public static void main(String[] args) {
     Scanner ler = new Scanner(System.in);
-    //Declarando as variáveis
+    //Declarando as variáveis e recebendo os valores
     int x;
-    //Recebendo os valores do usuário e guardando na variável
     System.out.print("Digite um número inteiro positivo: ");
     x = ler.nextInt();
     while (x<0){
