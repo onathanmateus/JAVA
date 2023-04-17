@@ -17,5 +17,7 @@ public class EX013 {
         System.out.print(i + ", ");
       }
     }
+
+    ler.close();
   }
 }
