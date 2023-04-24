@@ -8,7 +8,7 @@ public class EX013 {
     System.out.print("Digite um número inteiro positivo: ");
     x = ler.nextInt();
     while (x < 0){
-      System.out.println("Por favor, digite um número inteiro positivo");
+      System.out.print("Por favor, digite um número inteiro positivo: ");
       x = ler.nextInt();
     }
     //Mostrando somente os valores inteiros pares que ficam entre 1 e o número que o usuário digitou
