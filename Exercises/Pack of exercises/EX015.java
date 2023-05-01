@@ -9,8 +9,15 @@ public class EX015 {
     //Preenchendo a matriz com números aleatórios
     for(int l = 0; l < linhas; l++){
       for(int c = 0; c < colunas; c++){
-        matriz[l][c] = new SecureRandom().nextInt(100)
+        matriz[l][c] = new SecureRandom().nextInt(100);
       }
+    }
+    //Mostrando a matriz na tela'
+    for(int l = 0; l < linhas; l++){
+      for(int c = 0; c < colunas; c++){
+        System.out.printf("%d | ",matriz[l][c]);
+      }
+      System.out.printf("%n");
     }
   }
 }
