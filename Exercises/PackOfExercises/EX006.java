@@ -1,5 +1,4 @@
 package Exercises.PackOfExercises;
-
 import java.util.Scanner;
 
 public class EX006 {
