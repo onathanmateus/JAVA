@@ -1,6 +1,8 @@
+package Exercises.PackOfExercises;
+
 import java.util.Scanner;
 
-public class EX008{
+public class EX008 {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);
     // Lê os valores de a, b, c, d, e e f
@@ -22,7 +24,6 @@ public class EX008{
     // Exibe o resultado
     System.out.println("O valor de x é: " + x);
     System.out.println("O valor de y é: " + y);
-
     entrada.close();
   }
 }

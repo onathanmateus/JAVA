@@ -1,6 +1,8 @@
+package Exercises.PackOfExercises;
+
 import java.util.Scanner;
 
-public class EX006{
+public class EX006 {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);
     // Lê as coordenadas do primeiro ponto
@@ -17,8 +19,6 @@ public class EX006{
     double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     // Exibe o resultado
     System.out.println("A distância entre os pontos (" + x1 + ", " + y1 + ") e (" + x2 + ", " + y2 + ") é " + distancia);
-
     entrada.close();
   }
 }
-

@@ -1,3 +1,5 @@
+package Exercises.PackOfExercises2;
+
 public class EX016 {
   public static void main(String[] args) {
     msg("Bom dia!", 5);

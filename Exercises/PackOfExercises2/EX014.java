@@ -1,3 +1,4 @@
+package Exercises.PackOfExercises2;
 import java.util.Scanner;
 
 public class EX014 {
@@ -20,7 +21,6 @@ public class EX014 {
     }
     System.out.println("Resultado = "+xfinal);
     System.out.println("Erro comparado ao método java: "+(Math.abs(xfinal - Math.sqrt(y))));
-
     ler.close();
   }
 }

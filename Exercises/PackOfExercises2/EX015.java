@@ -1,3 +1,4 @@
+package Exercises.PackOfExercises2;
 import java.security.SecureRandom;
 
 public class EX015 {

@@ -1,6 +1,8 @@
+package Exercises.PackOfExercises;
+
 import java.util.Scanner;
 
-public class EX007{
+public class EX007 {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);
     // Lê os valores de A, B e C
@@ -17,7 +19,6 @@ public class EX007{
     int d = (r + s) / 2;
     // Exibe o resultado
     System.out.println("O valor de D é: " + d);
-    
     entrada.close();
   }
 }

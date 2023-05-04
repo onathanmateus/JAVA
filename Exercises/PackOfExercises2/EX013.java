@@ -1,3 +1,4 @@
+package Exercises.PackOfExercises2;
 import java.util.Scanner;
 
 public class EX013 {
@@ -17,7 +18,6 @@ public class EX013 {
         System.out.print(i + ", ");
       }
     }
-
     ler.close();
   }
 }

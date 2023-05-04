@@ -1,3 +1,5 @@
+package Exercises.PackOfExercises;
+
 import java.util.Scanner;
 
 public class EX009 {
@@ -14,7 +16,6 @@ public class EX009 {
     float m = (n1+n2+n3)/(2+3+5);
     //Mostrando o resultado na tela
     System.out.println("A média ponderada das 3 notas é de: "+m);
-
     entrada.close();
   }
 }

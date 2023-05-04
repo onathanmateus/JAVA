@@ -1,3 +1,5 @@
+package Exercises.PackOfExercises;
+
 import java.util.Scanner;
 
 public class EX010 {
@@ -13,7 +15,6 @@ public class EX010 {
     float custoConsumidor = (custoFabrica+jurosDistribuidor+impostos);
     //Mostrando o resultado na tela
     System.out.println("O custo do veículo para o consumidor final é de: "+custoConsumidor);
-
     entrada.close();
   }
 }
