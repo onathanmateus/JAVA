@@ -2,7 +2,7 @@ package Exercises.PackOfExercises2;
 
 public class EX016 {
   public static void main(String[] args) {
-    msg("Bom !", 5);
+    msg("Bom dia!", 5);
     System.out.println(soma(1734617, 134761873));
   }
   //Classe criada para somar 2 valores
