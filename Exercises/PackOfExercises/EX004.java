@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class EX004 {
   public static void main(String[] args) {
-    //configurando o scanner
+    //Configurando o scanner
     Scanner teclado = new Scanner(System.in);
     //Criando as variáveis e recebendo os valores
     System.out.print("Digite o valor da nota A1: ");
